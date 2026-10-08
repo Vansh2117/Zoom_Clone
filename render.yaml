@@ -1,0 +1,24 @@
+# Render Blueprint for the FastAPI backend (the frontend is deployed on Vercel).
+services:
+  - type: web
+    name: zoom-clone-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.4
+      # Set these in the Render dashboard; they are never committed.
+      - key: CORS_ORIGINS
+        sync: false
+      - key: PUBLIC_APP_URL
+        sync: false
+      - key: LIVEKIT_URL
+        sync: false
+      - key: LIVEKIT_API_KEY
+        sync: false
+      - key: LIVEKIT_API_SECRET
+        sync: false

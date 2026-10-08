@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.db
+*.sqlite3
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+next-env.d.ts
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Environment files (secrets)
+.env
+.env.local
+.env.*.local
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
