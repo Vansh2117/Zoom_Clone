@@ -52,7 +52,7 @@ The backend runs on a free hosting plan that sleeps when idle, so the first load
 
 - **Pre-join screen** with a live camera preview, a microphone level meter, mic and camera toggles, and the name field.
 - **Gallery view** with active-speaker highlight, mirrored self-view and muted indicators.
-- **Controls**: mute/unmute and start/stop video (also **Alt+A** / **Alt+V**), a participants panel, in-meeting **chat**, and **screen share** (a shared screen takes over the main stage).
+- **Controls**: mute/unmute and start/stop video (also **Alt+A** / **Alt+V**), a participants panel, in-meeting **chat**, and **screen share** (a shared screen takes over the main stage; if several people share at once, each viewer can switch between them).
 - **Leave confirmation** as in Zoom: guests get *Leave / Cancel*; the host gets *End Meeting for All / Leave Meeting / Cancel*.
 - **Waiting for host**: a guest who arrives before the host sees a waiting screen and joins automatically once the host starts the meeting.
 - **Reconnection**: a banner on network drops, and a page refresh rejoins silently as the same participant.
