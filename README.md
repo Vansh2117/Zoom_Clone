@@ -4,6 +4,15 @@ A full-stack clone of the Zoom web app. You can start an instant meeting, schedu
 
 The interface follows Zoom's web portal (home dashboard, Meetings, Schedule Meeting, Join) and Zoom's in-meeting experience (pre-join preview, gallery view, bottom toolbar, leave/end confirmation).
 
+## Live demo
+
+| | |
+| --- | --- |
+| **App** | <https://zoom-clone-beta-teal.vercel.app> |
+| **API documentation** | <https://zoom-clone-api-8kau.onrender.com/docs> |
+
+The backend runs on a free hosting plan that sleeps when idle, so the first load can take up to a minute. To try a two-person meeting, start one with **New Meeting** and open the invite link in an incognito window or on a phone.
+
 ## Contents
 
 - [Tech stack](#tech-stack)
